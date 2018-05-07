@@ -9,7 +9,7 @@
 @author:  https://github.com/drandreaskrueger
 """
 
-RPCaddress='http://localhost:22002' # node 2 of the 7nodes quorum example
+RPCaddress='http://localhost:22003' # node 2 of the 7nodes quorum example
 RAFT=True # # consensus algo - TODO: ask node
 
 import time, timeit, sys
@@ -19,7 +19,7 @@ from web3 import Web3, HTTPProvider
 from config import printVersions
 
 
-printVersions()
+#printVersions()
 
 def loopUntilActionBegins(query_intervall = 0.1):
     """

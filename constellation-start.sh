@@ -21,7 +21,6 @@ while $DOWN; do
     DOWN=false
     for i in {4..4}
     do
-	echo "debug";
 	if [ ! -S "qdata/c$i/tm.ipc" ]; then
             DOWN=true
 	fi
