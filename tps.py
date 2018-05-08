@@ -16,7 +16,7 @@ import time, timeit, sys
 from pprint import pprint
 
 from web3 import Web3, HTTPProvider
-from config import printVersions
+#from config import printVersions
 
 
 #printVersions()
